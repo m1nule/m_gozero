@@ -4,4 +4,6 @@
 rm -rf ~/.goctl/1.7.3
 mkdir -pv ~/.goctl/1.7.3
 ln -s $PWD/api ~/.goctl/1.7.3/api
+
+goctl api go -api gateway.api  -dir . --style=goZero
 ```
